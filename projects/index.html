@@ -1,0 +1,20 @@
+---
+layout: page
+title: Projects
+id: projects
+---
+I believe in the merits of building software in the open and its free usage. Here is a list of side projects I've been working on.
+<h2>Active Projects</h2>
+<p>These are the projects that are more involved and presentable.</p>
+<div class="list-group row">
+	{% for project in site.projects reversed %}
+		<a class="list-group-item" href="{{ project.site }}">
+			<h4>{{ project.title }} <small class="pull-right">{{project.year}}</small></h4>
+			<div>
+				{{ project.description }}
+			</div>
+		</a>
+	{% endfor %}
+</div>
+<h2>Other Projects</h2>
+Check out <a href="https://github.com/jodersky?tab=repositories">github repositories</a> for a complete list of all my projects, including smaller and personal ones.

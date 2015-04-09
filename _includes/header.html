@@ -1,0 +1,52 @@
+{% capture content %}
+	<nav class="navbar navbar-static-top navbar-inverse">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Jakob Odersky</a>
+			</div>
+			<div class="collapse navbar-collapse" id="main-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li {% if page.id == "about" %} class="active" {% endif %}>
+						<a href="/">About</a>
+					</li>
+					<li {% if page.id == "projects" %} class="active" {% endif %}>
+						<a href="/projects">Projects</a>
+					</li>
+					<li {% if page.id == "blog" %} class="active" {% endif %}>
+						<a href="/blog">Blog</a>
+					</li>
+					<li {% if page.id == "openpgp" %} class="active" {% endif %}>
+						<a href="/openpgp">OpenPGP</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="http://www.google.com/recaptcha/mailhide/d?k=01HL3HYaIAlqG65738Sa5o5g==&amp;c=Mhki0TZUvIR7t-3P1GlaVymx4LW_kxdovpzP9I4A8kU=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501HL3HYaIAlqG65738Sa5o5g\75\75\46c\75Mhki0TZUvIR7t-3P1GlaVymx4LW_kxdovpzP9I4A8kU\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Email"><i class="fa fa-inverse fa-lg fa-envelope"></i></a>
+					</li>
+					<li>
+						<a href="https://www.github.com/jodersky" title="GitHub"><i class="fa fa-inverse fa-lg fa-github"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/jodersky" title="Twitter"><i class="fa fa-inverse fa-lg fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="https://keybase.io/jodersky" title="Keybase"><i class="fa fa-inverse fa-lg fa-key"></i></a>
+					</li>
+				</ul>
+    		</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="alert alert-warning">This website is work in progress.</div>
+		{{ content }}
+	</div>
+{% endcapture %}
+{% include main.html %}

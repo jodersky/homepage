@@ -1,0 +1,6 @@
+collections:
+  projects:
+   output: false
+
+# posts
+permalink: /blog/:year/:month/:day/:title/	
