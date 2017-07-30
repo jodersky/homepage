@@ -3,22 +3,34 @@ layout: page
 title: Projects
 id: projects
 ---
-I'm an advocate of free and open source software. Here is a list of side projects I've been working on.
-<h2>Selected Projects</h2>
-<p>These are the projects that are more involved and presentable.</p>
-<div class="list-group row">
-	{% for project in site.projects reversed %}
-	<a class="list-group-item" href="{{ project.site }}">
-		<h4>{{ project.title }} <small class="pull-right">{{project.year}}</small></h4>
-		<div>
-			{{ project.description }}
-		</div>
-	</a>
-	{% endfor %}
-</div>
-<h2>Other Projects</h2>
-<p>Check out <a href="https://github.com/jodersky?tab=repositories">github repositories</a> for a complete list of all my projects, including smaller ones.</p>
+<div class="mt-3">
+    I'm an enthusiast of free and open source software. Here is a list of side projects I've been working on.
+    <h2 class="mt-3">Selected Projects</h2>
+    <p>These are the projects that are more involved and presentable.</p>
 
-<h2>Signature</h2>
-<p>My public key's fingerprint is: <code>4E7D A7B5 A0F8 6992 D6EB  3F51 4601 8786 62E3 3372</code></p>
-<p><i class="fa fa-hand-o-right"></i> Check identity on <a href="https://keybase.io/jodersky">keybase.io</a></p>
+    <div class="card-columns">
+	{% for project in site.projects reversed %}
+	<div class="card" >
+	    {% if project.logo %}
+	    <img class="card-img-top img-fluid mx-auto d-block" src="/assets/images/{{project.logo}}" alt="Project logo">
+	    {% endif %}
+
+	    <div class="card-header"><h4 class="card-title">{{ project.title }}</h4></div>
+	    <div class="card-block">
+		<h6 class="card-subtitle mb-2 text-muted">{{ project.year }}</h6>
+		<p class="card-text">{{ project.description }}</p>
+	    </div>
+	    <div class="card-footer">
+		<a href="{{ project.site }}">project website</a>
+	    </div>
+	</div>
+	{% endfor %}
+    </div>
+
+    <h2>Other Projects</h2>
+    <p>Check out <a href="https://github.com/jodersky?tab=repositories">GitHub repositories</a> for a more extensive list of open source contributions.</p>
+
+    <h2 class="mt-3">Signature</h2>
+    <p>My public key's fingerprint is: <code>4E7D A7B5 A0F8 6992 D6EB  3F51 4601 8786 62E3 3372</code></p>
+    <p><i class="fa fa-hand-o-right"></i> Check identity on <a href="https://keybase.io/jodersky">keybase.io</a></p>
+</div>
