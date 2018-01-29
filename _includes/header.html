@@ -1,17 +1,14 @@
 {% capture content %}
 <header>
-    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
-	<button class="navbar-toggler navbar-toggler-right" type="button"
-		data-toggle="collapse" data-target="#navbar-content">
-	    
-	    <span class="navbar-toggler-icon"></span>
-	</button>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 	<div class="container">
-	    
+	    <button class="navbar-toggler navbar-toggler-right" type="button"
+			   data-toggle="collapse" data-target="#navbar-content">
+		<span class="navbar-toggler-icon"></span>
+	    </button>
 	    <a class="navbar-brand" href="/">Jakob Odersky</a>
-
 	    <div class="collapse navbar-collapse" id="navbar-content">
-		<ul class="navbar-nav">
+		<ul class="navbar-nav mr-auto">
 		    <li class="nav-item{% if page.id == "about" %} active{% endif %}">
 			<a class="nav-link" href="/">About Me</a>
 		    </li>
