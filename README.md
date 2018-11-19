@@ -1,2 +1,2 @@
 # My Homepage
-Available at http://www.jodersky.ch. Generated with jekyll.
+Available at https://jakob.odersky.com. Generated with pandoc and make.

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+	<link rel="shortcut icon" type="image/png" href="$base_path$/assets/images/jo.png"/>
+	<link rel="stylesheet" href="$base_path$/assets/lib/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="$base_path$/assets/lib/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="$base_path$/assets/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="$base_path$/assets/lib/fontawesome/css/font-awesome.min.css">
+	$for(css)$
+	<link rel="stylesheet" href="$css$"/>
+	$endfor$
+	<script src="$base_path$/assets/lib/jquery/js/jquery-3.2.1.min.js"></script>
+	<script src="$base_path$/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="$base_path$/assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+	<header class="mb-3">
+	    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container">
+		    <button class="navbar-toggler navbar-toggler-right" type="button"
+			    data-toggle="collapse" data-target="#navbar-content">
+			<span class="navbar-toggler-icon"></span>
+		    </button>
+		    <a class="navbar-brand" href="$base_path$/index.html">Jakob Odersky</a>
+		    <div class="collapse navbar-collapse" id="navbar-content">
+			<ul class="navbar-nav mr-auto">
+			    <li class="nav-item $if(navbar_index)$active$endif$">
+				<a class="nav-link" href="$base_path$/index.html">About Me</a>
+			    </li>
+			    <li class="nav-item $if(navbar_projects)$active$endif$">
+				<a class="nav-link" href="$base_path$/projects.html">Projects</a>
+			    </li>
+			    <li class="nav-item $if(navbar_talks)$active$endif$">
+				<a class="nav-link" href="$base_path$/talks.html">Talks</a>
+			    </li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+			    <li class="nav-item">
+				<a class="nav-link" href="$base_path$/index.html" title="Contact"><i class="fa fa-inverse fa-lg fa-envelope"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://www.github.com/jodersky" title="GitHub"><i class="fa fa-inverse fa-lg fa-github"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://twitter.com/jodersky" title="Twitter"><i class="fa fa-inverse fa-lg fa-twitter"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://www.linkedin.com/in/jodersky" title="LinkedIn"><i class="fa fa-inverse fa-lg fa-linkedin-square"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://keybase.io/jodersky" title="Keybase"><i class="fa fa-inverse fa-lg fa-key"></i></a>
+			    </li>
+			</ul>
+
+		    </div>
+		</div>
+	    </nav>
+	</header>
+	<main class="container">
+	    $body$
+	</main>
+    </body>
+</html>
