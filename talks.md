@@ -15,3 +15,16 @@ Clojure's core.async.
 
 [slides [pdf]](talks/scala-channels.pdf) [[html]](talks/scala-channels.html)
 [project escale](https://github.com/jodersky/escale)
+
+
+### Project Condor
+
+Building a DIY quadrotor. This talk gives an overview of all steps
+necessary in building a drone from the ground up, with off-the-shelf
+parts from the hardware store and hobby electronics. It describes the
+evolution of Project Condor, presents its software architecture from
+base station to on-board flight stack, and summarizes engineering
+tradeoffs.
+
+[slides [html]](talks/project-condor.html)
+[project website](https://project-condor.github.io)

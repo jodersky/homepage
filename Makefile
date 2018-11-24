@@ -57,4 +57,9 @@ $(target)/talks/scala-channels.html: talks/scala-channels.html
 	@mkdir -p $(@D)
 	cp $< $@
 
+$(target)/talks/project-condor.html: talks/project-condor.html
+	@mkdir -p $(@D)
+	cp $< $@
+
+
 .PHONY: all clean publish
