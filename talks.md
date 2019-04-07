@@ -2,7 +2,7 @@
 title: Talks
 ---
 
-### Channeling the Inner Complexity
+## Channeling the Inner Complexity
 
 An essential requirement for writing programs that scale is to have
 constructs to model concurrency in an understandable, safe, and
@@ -16,8 +16,9 @@ Clojure's core.async.
 [slides [pdf]](talks/scala-channels.pdf) [[html]](talks/scala-channels.html)
 [project escale](https://github.com/jodersky/escale)
 
+---
 
-### Project Condor
+## Project Condor
 
 Building a DIY quadrotor. This talk gives an overview of all steps
 necessary in building a drone from the ground up, with off-the-shelf
