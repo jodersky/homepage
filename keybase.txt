@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/jodersky
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.jodersky.ch
+  * I am jodersky (https://keybase.io/jodersky) on keybase.
+  * I have a public key with fingerprint 4E7D A7B5 A0F8 6992 D6EB  3F51 4601 8786 62E3 3372
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b1a32e13cfe36819f3f4beb70736a818024f81f7ccafd329000d85aff5d2d2160a",
+            "fingerprint": "4e7da7b5a0f86992d6eb3f514601878662e33372",
+            "host": "keybase.io",
+            "key_id": "4601878662e33372",
+            "kid": "0101b1a32e13cfe36819f3f4beb70736a818024f81f7ccafd329000d85aff5d2d2160a",
+            "uid": "c5647a04d1d95dbcf9e76a925f506300",
+            "username": "jodersky"
+        },
+        "service": {
+            "hostname": "www.jodersky.ch",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1459307436,
+    "expire_in": 157680000,
+    "prev": "e062394dc8408a0e5446ebff5a5f494a90091551523eb32170aaf1c241156b53",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMU2cYLiAMm3CZMzRsGNgBDGRNPfdL2RIVwxgZc1NnNguy75zznXIG7Slt
+aWVcss15mSOgC5fCFoSJMGisgO4+JOC8BDcEJuBQ4yTeYHEjcwpYSHZK9N9+7teX
+7/2e5/me533fgxEhGm2Q/p7O+4JFYYIuTPOa7f70gVKEV8QSxFiKFMDlAxaK0OHM
+K5BFxIigGIrxGCBwiBGCBAmaxTiJkEge8gzKEDRgMRbFSYnFJEYQgCQSOIeiqMhS
+QJIoERdxjEYBokck2WqGdptdtjpVWRIyImB4CqASS3McLtKQJyQKI2kUYxmWpnFI
+EASDq8R8xRFgqOZ44IAGWVFr6iVv2d5/4P9n38XLcgJFkwxASRETOUrkBYmDDA04
+nJIolCZQNAB0QLsVWKCKflcRod1RUIKU6xG16pIFGGhsIMljhNvtNjxBGYR8lW6z
+K05FUArVx3yn0+YwBsjOEtsyGvJ5j3XyeNkqqq1UGS6VLStWxIipSMEpB4QxkuII
+lCEJWo/AXTbZDvPkAIJiaFaNhwb+gS5VEqI0nkNwpCiwJMoCFFIkqc5AzQ4oieRI
+oHaDwygKo3BCHQ2OMSgAEibgJIZRNE8RSCBakVVRxTnVKDCrog7ZbAXOYjtEyrUf
+B8et0ARpNWGhwYEt02hXRj9ZvZ/CozX7J3+I6O+L8bR3HMjdLTnWfW5pqGjbXj8w
+LepC1pR9YzCtMgZNsdO+ost3UwdeaTiZljX05fWZ/ozFgaSRhSTwWzHRvVA3kXlo
+NLMTrtB606r+Gooq6y63Ra/r7/jnxQS8pTNla8H6r79oPYO0DkthGW/vkDFDknf6
+cLbpWb/Xf6b2UVdmKmD0yXvDd5kXKvace299z3ctSlZnNbhjmnQr3R+luhoGKpPj
+3Zcrk5q2/e1d1dzj6wruDUvYPH5veN/MKfb3cc/NKOP778zPLln3nG9+VNd4oKZ3
+Lif8tV9ibx2CR/2jpUNTa4PcG0/u/aSw71qNznHTv2m2uOViyr6ewRsxcREPB8cu
+LP1KuXQX469Erm3unavVLb31ksc7FlEbnBizofNw+4iZ2XbU4JnSffXUp7FvTNzp
+O5J43YRkX2q61bZz/v7VsFoQNerrki61f/uM/c/hDyL7X44/XVA0ErfpQdX4j0u+
+stc3OBvxqpodwwmmu5b60Cv3fdXMcf/zp+LhxrTZxP3NjWG3f56c7n7g230+M1Q7
+tTq97fs1g/l1ncceas9lhFjan7uWjR6rKo48i1Q0GUxKxJs1yVc/fLoDa6kWPOaD
+rsUUfe2NrD+Cd67c4pp/NXdRGlUsrvRxYvZ0pG/shMfeOtOeczb79sSJ2NVzDrpt
+83FTfa7JtRXAzyq3HPkX
+=9K/K
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jodersky
+
+==================================================================

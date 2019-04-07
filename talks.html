@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<title>Talks</title>
+	<link rel="shortcut icon" type="image/png" href="./assets/images/jo.png"/>
+	<link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/lib/fontawesome/css/font-awesome.min.css">
+		<script src="./assets/lib/jquery/js/jquery-3.2.1.min.js"></script>
+	<script src="./assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+	<header class="mb-3">
+	    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container">
+		    <button class="navbar-toggler navbar-toggler-right" type="button"
+			    data-toggle="collapse" data-target="#navbar-content">
+			<span class="navbar-toggler-icon"></span>
+		    </button>
+		    <a class="navbar-brand" href="./index.html">Jakob Odersky</a>
+		    <div class="collapse navbar-collapse" id="navbar-content">
+			<ul class="navbar-nav mr-auto">
+			    <li class="nav-item ">
+				<a class="nav-link" href="./index.html">About Me</a>
+			    </li>
+			    <li class="nav-item ">
+				<a class="nav-link" href="./projects.html">Projects</a>
+			    </li>
+			    <li class="nav-item active">
+				<a class="nav-link" href="./talks.html">Talks</a>
+			    </li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+			    <li class="nav-item">
+				<a class="nav-link" href="./index.html" title="Contact"><i class="fa fa-inverse fa-lg fa-envelope"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://www.github.com/jodersky" title="GitHub"><i class="fa fa-inverse fa-lg fa-github"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://twitter.com/jodersky" title="Twitter"><i class="fa fa-inverse fa-lg fa-twitter"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://www.linkedin.com/in/jodersky" title="LinkedIn"><i class="fa fa-inverse fa-lg fa-linkedin-square"></i></a>
+			    </li>
+			    <li class="nav-item">
+				<a class="nav-link" href="https://keybase.io/jodersky" title="Keybase"><i class="fa fa-inverse fa-lg fa-key"></i></a>
+			    </li>
+			</ul>
+
+		    </div>
+		</div>
+	    </nav>
+	</header>
+	<main class="container">
+	    <h2 id="channeling-the-inner-complexity">Channeling the Inner Complexity</h2>
+<p>An essential requirement for writing programs that scale is to have constructs to model concurrency in an understandable, safe, and efficient manner. This talk presents an overview of various such models available in Scala, and their impact on program structure and complexity. It then explores a way to model concurrency with less complexity with an implementation of Communicating Sequential Processes (CSP), heavily inspired by goroutines, scala-async and Clojure’s core.async.</p>
+<p><a href="talks/scala-channels.pdf">slides [pdf]</a> <a href="talks/scala-channels.html">[html]</a> <a href="https://github.com/jodersky/escale">project escale</a></p>
+<hr />
+<h2 id="project-condor">Project Condor</h2>
+<p>Building a DIY quadrotor. This talk gives an overview of all steps necessary in building a drone from the ground up, with off-the-shelf parts from the hardware store and hobby electronics. It describes the evolution of Project Condor, presents its software architecture from base station to on-board flight stack, and summarizes engineering tradeoffs.</p>
+<p><a href="talks/project-condor.html">slides [html]</a> <a href="https://project-condor.github.io">project website</a></p>
+	</main>
+    </body>
+</html>
